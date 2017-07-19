@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02B495C1F0E9BC6006DD2F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B495B1F0E9BC6006DD2F0 /* AppDelegate.swift */; };
+		C02B495E1F0E9BC6006DD2F0 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B495D1F0E9BC6006DD2F0 /* WeekViewController.swift */; };
+		C02B49611F0E9BC6006DD2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B495F1F0E9BC6006DD2F0 /* Main.storyboard */; };
+		C02B49631F0E9BC6006DD2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B49621F0E9BC6006DD2F0 /* Assets.xcassets */; };
+		C02B49661F0E9BC6006DD2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B49641F0E9BC6006DD2F0 /* LaunchScreen.storyboard */; };
+		C02B496E1F0EA4E6006DD2F0 /* MoodCheckerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B496D1F0EA4E6006DD2F0 /* MoodCheckerViewController.swift */; };
+		C02B49701F0EA4F9006DD2F0 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B496F1F0EA4F9006DD2F0 /* ScaleViewController.swift */; };
+		C02B49721F0EACFE006DD2F0 /* MoodChecker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B49711F0EACFE006DD2F0 /* MoodChecker.storyboard */; };
+		C02B49741F0EAD31006DD2F0 /* Scale.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B49731F0EAD31006DD2F0 /* Scale.storyboard */; };
+		C0816FC71F0FEC5E007A4B6A /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0816FC61F0FEC5E007A4B6A /* CoreDataHelper.swift */; };
+		C0816FCC1F0FEF2E007A4B6A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0816FCB1F0FEF2E007A4B6A /* CoreData.framework */; };
+		C0816FCF1F0FEF82007A4B6A /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0816FCD1F0FEF82007A4B6A /* CoreDataModel.xcdatamodeld */; };
+		C0884C571F0EE1AA005AD08C /* PostThumbImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0884C561F0EE1AA005AD08C /* PostThumbImageCell.swift */; };
+		C6837B9F6E78C3FC5026BB26 /* Pods_Moodi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF706FB9226A38159E40D3B /* Pods_Moodi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B5E1EF251C457E5979250F6 /* Pods-Moodi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moodi/Pods-Moodi.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF706FB9226A38159E40D3B /* Pods_Moodi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moodi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B49581F0E9BC6006DD2F0 /* Moodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B495B1F0E9BC6006DD2F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02B495D1F0E9BC6006DD2F0 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		C02B49601F0E9BC6006DD2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02B49621F0E9BC6006DD2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02B49651F0E9BC6006DD2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02B49671F0E9BC6006DD2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02B496D1F0EA4E6006DD2F0 /* MoodCheckerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodCheckerViewController.swift; sourceTree = "<group>"; };
+		C02B496F1F0EA4F9006DD2F0 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		C02B49711F0EACFE006DD2F0 /* MoodChecker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MoodChecker.storyboard; sourceTree = "<group>"; };
+		C02B49731F0EAD31006DD2F0 /* Scale.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Scale.storyboard; sourceTree = "<group>"; };
+		C0816FC61F0FEC5E007A4B6A /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		C0816FCB1F0FEF2E007A4B6A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0816FCE1F0FEF82007A4B6A /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		C0884C561F0EE1AA005AD08C /* PostThumbImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostThumbImageCell.swift; sourceTree = "<group>"; };
+		C0DEBB9A1F104D1900873122 /* Moodi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Moodi-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5D9F9578CE0F6C25F59376A /* Pods-Moodi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moodi/Pods-Moodi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02B49551F0E9BC6006DD2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0816FCC1F0FEF2E007A4B6A /* CoreData.framework in Frameworks */,
+				C6837B9F6E78C3FC5026BB26 /* Pods_Moodi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E2264B496E235F302012CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B5E1EF251C457E5979250F6 /* Pods-Moodi.debug.xcconfig */,
+				C5D9F9578CE0F6C25F59376A /* Pods-Moodi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C02B494F1F0E9BC6006DD2F0 = {
+			isa = PBXGroup;
+			children = (
+				C0DEBB9A1F104D1900873122 /* Moodi-Bridging-Header.h */,
+				C02B495A1F0E9BC6006DD2F0 /* Moodi */,
+				C02B49591F0E9BC6006DD2F0 /* Products */,
+				46E2264B496E235F302012CA /* Pods */,
+				F6A0CCD29DBE70DACB953273 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C02B49591F0E9BC6006DD2F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02B49581F0E9BC6006DD2F0 /* Moodi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02B495A1F0E9BC6006DD2F0 /* Moodi */ = {
+			isa = PBXGroup;
+			children = (
+				C02B495B1F0E9BC6006DD2F0 /* AppDelegate.swift */,
+				C0816FC91F0FEC80007A4B6A /* View Controllers */,
+				C0816FC81F0FEC6A007A4B6A /* Storyboards */,
+				C02B49621F0E9BC6006DD2F0 /* Assets.xcassets */,
+				C02B49671F0E9BC6006DD2F0 /* Info.plist */,
+				C0816FCA1F0FEC9A007A4B6A /* Helpers */,
+				C0816FCD1F0FEF82007A4B6A /* CoreDataModel.xcdatamodeld */,
+			);
+			path = Moodi;
+			sourceTree = "<group>";
+		};
+		C0816FC81F0FEC6A007A4B6A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C02B49641F0E9BC6006DD2F0 /* LaunchScreen.storyboard */,
+				C02B495F1F0E9BC6006DD2F0 /* Main.storyboard */,
+				C02B49731F0EAD31006DD2F0 /* Scale.storyboard */,
+				C02B49711F0EACFE006DD2F0 /* MoodChecker.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C0816FC91F0FEC80007A4B6A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C02B495D1F0E9BC6006DD2F0 /* WeekViewController.swift */,
+				C02B496D1F0EA4E6006DD2F0 /* MoodCheckerViewController.swift */,
+				C02B496F1F0EA4F9006DD2F0 /* ScaleViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C0816FCA1F0FEC9A007A4B6A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C0884C561F0EE1AA005AD08C /* PostThumbImageCell.swift */,
+				C0816FC61F0FEC5E007A4B6A /* CoreDataHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F6A0CCD29DBE70DACB953273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0816FCB1F0FEF2E007A4B6A /* CoreData.framework */,
+				9DF706FB9226A38159E40D3B /* Pods_Moodi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02B49571F0E9BC6006DD2F0 /* Moodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B496A1F0E9BC6006DD2F0 /* Build configuration list for PBXNativeTarget "Moodi" */;
+			buildPhases = (
+				F1C6A2C720E1E3D1A8E34E67 /* [CP] Check Pods Manifest.lock */,
+				C02B49541F0E9BC6006DD2F0 /* Sources */,
+				C02B49551F0E9BC6006DD2F0 /* Frameworks */,
+				C02B49561F0E9BC6006DD2F0 /* Resources */,
+				D187415234DAA4E4D5302D92 /* [CP] Embed Pods Frameworks */,
+				DBA1372224FDA0B2F117C33D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moodi;
+			productName = Moodi;
+			productReference = C02B49581F0E9BC6006DD2F0 /* Moodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02B49501F0E9BC6006DD2F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kodo;
+				TargetAttributes = {
+					C02B49571F0E9BC6006DD2F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C02B49531F0E9BC6006DD2F0 /* Build configuration list for PBXProject "Moodi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02B494F1F0E9BC6006DD2F0;
+			productRefGroup = C02B49591F0E9BC6006DD2F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02B49571F0E9BC6006DD2F0 /* Moodi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02B49561F0E9BC6006DD2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B49661F0E9BC6006DD2F0 /* LaunchScreen.storyboard in Resources */,
+				C02B49741F0EAD31006DD2F0 /* Scale.storyboard in Resources */,
+				C02B49721F0EACFE006DD2F0 /* MoodChecker.storyboard in Resources */,
+				C02B49631F0E9BC6006DD2F0 /* Assets.xcassets in Resources */,
+				C02B49611F0E9BC6006DD2F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D187415234DAA4E4D5302D92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moodi/Pods-Moodi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA1372224FDA0B2F117C33D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moodi/Pods-Moodi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C6A2C720E1E3D1A8E34E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02B49541F0E9BC6006DD2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02B496E1F0EA4E6006DD2F0 /* MoodCheckerViewController.swift in Sources */,
+				C02B495E1F0E9BC6006DD2F0 /* WeekViewController.swift in Sources */,
+				C02B495C1F0E9BC6006DD2F0 /* AppDelegate.swift in Sources */,
+				C0884C571F0EE1AA005AD08C /* PostThumbImageCell.swift in Sources */,
+				C0816FC71F0FEC5E007A4B6A /* CoreDataHelper.swift in Sources */,
+				C0816FCF1F0FEF82007A4B6A /* CoreDataModel.xcdatamodeld in Sources */,
+				C02B49701F0EA4F9006DD2F0 /* ScaleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C02B495F1F0E9BC6006DD2F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B49601F0E9BC6006DD2F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C02B49641F0E9BC6006DD2F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C02B49651F0E9BC6006DD2F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C02B49681F0E9BC6006DD2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Moodi-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Moodi-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02B49691F0E9BC6006DD2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Moodi-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Moodi-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02B496B1F0E9BC6006DD2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5E1EF251C457E5979250F6 /* Pods-Moodi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodo.Moodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Moodi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C02B496C1F0E9BC6006DD2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D9F9578CE0F6C25F59376A /* Pods-Moodi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodo.Moodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Moodi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02B49531F0E9BC6006DD2F0 /* Build configuration list for PBXProject "Moodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B49681F0E9BC6006DD2F0 /* Debug */,
+				C02B49691F0E9BC6006DD2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02B496A1F0E9BC6006DD2F0 /* Build configuration list for PBXNativeTarget "Moodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02B496B1F0E9BC6006DD2F0 /* Debug */,
+				C02B496C1F0E9BC6006DD2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0816FCD1F0FEF82007A4B6A /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0816FCE1F0FEF82007A4B6A /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = C0816FCE1F0FEF82007A4B6A /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C02B49501F0E9BC6006DD2F0 /* Project object */;
+}
